@@ -28,8 +28,7 @@ Notebook Menu:
             choice = input("Enter an Option: ")
             action = self.choices.get(choice)
             if action:
-                
-                ()
+                action()
             else:
                 print(f"{choice} is not a valid choice.")
     
